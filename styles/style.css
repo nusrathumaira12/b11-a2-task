@@ -14,3 +14,212 @@
     padding: 0;
     box-sizing: border-box;
 }
+.brand{
+    font-size: 2rem;
+   font-weight: 700;
+}
+/* shared style */
+.display-flex{
+    display: flex;
+}
+.orange{
+ color: #FEA301;
+}
+.skyblue{
+    color: #01ACFD;
+}
+.aqua{
+    color: #05D4DF;
+}
+.purple{
+    color: #5D58EF;
+}
+.btn-ptimary{
+    background-color: #FEA301;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+    width: 190px;
+    height: 48px;
+    margin-left: 160px;
+    /* list-style: none; */
+}
+
+.navbar{
+  gap: 120px;
+ justify-content: space-between;
+ align-items: center;
+  
+  
+}
+.nav-links{
+   gap: 28px;
+   
+}
+.nav-item{
+    list-style: none;
+    gap: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+.navbar{
+    max-width: 1150px;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.banner{
+    max-width: 1150px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 0 200px;
+}
+.banner-title{
+    margin-bottom: 24px;
+}
+.banner-description{
+    margin-bottom: 24px;
+}
+.banner-content{
+    max-width: 640px;
+    align-items: center;
+    line-height: auto;
+    
+ 
+}
+.black{
+    background-color: black;
+    color: #FFFFFF;
+     font-size: 15px;
+    height: 45px;
+    width: 180px;
+    border: none;
+    border-radius: 12px;
+}
+.banner-pro-pic{
+    width: 100%;
+    margin-left: 200px;
+    margin-right: 0;
+    padding-right: 0;
+}
+.menu-bar{
+display: none;
+font-size: 24px;
+cursor: pointer;
+
+}
+/* main{
+    max-width: 1160px;
+} */
+.title{
+    font-size: 2.8rem;
+    font-weight: 700;
+   
+}
+
+main{
+    max-width: 1140px;
+margin: 0 auto;
+}
+
+.curriculam{
+    background-image: url(../assets/bg.png);
+    padding: 100px 130px;
+    text-align: center;
+    margin-top: 20px;
+    
+   
+}
+
+
+.curriculam-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    gap: 20px;
+
+}
+.card-box{
+    padding-top: 20px;
+    gap: 20px;
+    border-radius: 18px;
+    padding-bottom: 40px;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 33px;
+}
+.card-description{
+    font-weight: 500;
+font-size: 10px;
+margin-bottom: 33px;
+padding: 0px 40px;
+}
+
+.link{
+    text-decoration: none;
+   padding-bottom: 30px;
+}
+.arrow{
+    font-size: 2rem;
+    color: #FFFFFF;
+    background-color: #FEA301;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.card-box1{
+    background: linear-gradient(to bottom, rgba(222, 245, 255, 0.95) 0%, rgba(255, 255, 255, 1) 40%);
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    
+}
+ 
+.card-box2{
+    background: linear-gradient(to bottom, rgba(255, 244, 220, 1) 0%, rgba(255, 255, 255, 1) 40%);
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    
+}
+.card-box3{
+background: linear-gradient(to bottom, rgba(238, 225, 255, 1) 0%, rgba(255, 255, 255, 0) 40%);
+box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+
+}
+@media screen and (max-width:576px){
+   .navbar li
+   {
+    display: none;
+   }
+.brand{
+display: none;
+}
+   
+
+   .banner{
+    margin: 20px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+   
+   }
+   .banner-pro-pic{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+   
+   }
+
+
+   .menu-bar {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+   }
+
+}
